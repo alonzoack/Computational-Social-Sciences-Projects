@@ -1,0 +1,11 @@
+cd Desktop
+cd Computational Social Science
+git clone Computational-Social-Sciences-Projects
+mkdir "Project 1"
+cd "Project 1"
+vis summary "summary_command.txt"
+esc : wq 
+git add "summary_command.txt"
+git commit "Add summary of commands"
+git push
+
